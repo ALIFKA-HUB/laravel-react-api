@@ -1,0 +1,45 @@
+# Dependensi
+laravel-api-app/node_modules/
+laravel-api-app/vendor/
+react-app/node_modules/
+react-app/dist/
+react-app/dist-ssr/
+
+# Basis Data SQLite (Lokal)
+laravel-api-app/database/*.sqlite
+laravel-api-app/database/*.sqlite-journal
+
+# Konfigurasi Lingkungan (Private Keys & Secrets)
+laravel-api-app/.env
+laravel-api-app/.env.backup
+laravel-api-app/.env.production
+react-app/*.local
+react-app/.env
+
+# File Penyimpanan Framework (Laravel)
+laravel-api-app/public/storage
+laravel-api-app/storage/*.key
+laravel-api-app/storage/framework/sessions/*
+laravel-api-app/storage/framework/views/*
+laravel-api-app/storage/framework/cache/*
+laravel-api-app/storage/logs/*
+laravel-api-app/storage/pail
+
+# Editor / IDE (VS Code, PhpStorm, dll)
+.vscode/
+.idea/
+*.suo
+*.ntvs*
+*.njsproj
+*.sln
+*.sw?
+.fleet/
+.nova/
+.zed/
+
+# Sistem Operasi & File Sementara
+.DS_Store
+Thumbs.db
+~$*.docx
+*.log
+
